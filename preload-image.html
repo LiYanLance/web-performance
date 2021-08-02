@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>preload image</title>
+    <link rel="preload"
+          href="https://www.realestate.com.au/blog/images/800x450-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg"
+          as="image" type="image/webp" media="(min-width: 301px) and (max-width: 400px)">
+    <link rel="preload"
+          href="https://www.realestate.com.au/blog/images/600x338-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg"
+          as="image" type="image/webp" media="(min-width: 201px) and (max-width: 300px)">
+    <link rel="preload"
+          href="https://www.realestate.com.au/blog/images/400x225-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg"
+          as="image" type="image/webp" media="(max-width: 200px)">
+</head>
+<body>
+<p>First paragraph</p>
+<script src="https://www.realestate.com.au/news/public/vendors-393a7c679cddaf5000f1.js"></script>
+<picture>
+    <source type="image/webp" sizes="100vw"
+            srcset="https://www.realestate.com.au/blog/images/200x113-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 200w, https://www.realestate.com.au/blog/images/400x225-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 400w, https://www.realestate.com.au/blog/images/600x338-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 600w, https://www.realestate.com.au/blog/images/800x450-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 800w, https://www.realestate.com.au/blog/images/1000x563-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1000w, https://www.realestate.com.au/blog/images/1200x675-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1200w, https://www.realestate.com.au/blog/images/1400x788-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1400w, https://www.realestate.com.au/blog/images/1600x900-fit,progressive,format=webp/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1600w">
+    <img
+            loading="lazy"
+            sizes="100vw"
+            src="https://www.realestate.com.au/blog/images/1024x576-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg"
+            srcset="https://www.realestate.com.au/blog/images/200x113-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 200w, https://www.realestate.com.au/blog/images/400x225-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 400w, https://www.realestate.com.au/blog/images/600x338-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 600w, https://www.realestate.com.au/blog/images/800x450-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 800w, https://www.realestate.com.au/blog/images/1000x563-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1000w, https://www.realestate.com.au/blog/images/1200x675-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1200w, https://www.realestate.com.au/blog/images/1400x788-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1400w, https://www.realestate.com.au/blog/images/1600x900-fit,progressive/2020/03/31000046/capi_889b60c9f63e186b0a6684e065c5b632_d6c936b5d6128557b5085c739b265b81.jpeg 1600w"
+            width="1024" height="576"
+    >
+</picture>
+<p>Second paragraph</p>
+
+<picture>
+    <source
+            type="image/webp"
+            sizes="100vw"
+            srcset="https://www.realestate.com.au/blog/images/200x267-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 200w, https://www.realestate.com.au/blog/images/400x533-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 400w, https://www.realestate.com.au/blog/images/600x800-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 600w, https://www.realestate.com.au/blog/images/800x1066-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 800w, https://www.realestate.com.au/blog/images/1000x1333-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1000w, https://www.realestate.com.au/blog/images/1200x1600-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1200w, https://www.realestate.com.au/blog/images/1400x1866-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1400w, https://www.realestate.com.au/blog/images/1600x2133-fit,progressive,format=webp/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1600w">
+    <img
+            alt="for Nick Clayton. Home mag cover story: Sterling Homes Lakeland displays at Parafied Gardens"
+            aria-describedby="caption-attachment-571140"
+            loading="lazy" sizes="100vw"
+            src="https://www.realestate.com.au/blog/images/1024x1365-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg"
+            srcset="https://www.realestate.com.au/blog/images/200x267-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 200w, https://www.realestate.com.au/blog/images/400x533-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 400w, https://www.realestate.com.au/blog/images/600x800-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 600w, https://www.realestate.com.au/blog/images/800x1066-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 800w, https://www.realestate.com.au/blog/images/1000x1333-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1000w, https://www.realestate.com.au/blog/images/1200x1600-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1200w, https://www.realestate.com.au/blog/images/1400x1866-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1400w, https://www.realestate.com.au/blog/images/1600x2133-fit,progressive/2020/03/31003020/capi_315571e18068a44e8c982a67ee9789d1_2aad4742f183afcad767d71b1f829740.jpeg 1600w"
+    >
+</picture>
+<p>Third paragraph</p>
+</body>
+</html>
